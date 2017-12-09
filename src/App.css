@@ -10,6 +10,25 @@
   padding: 2rem;
 }
 
+.App-nav {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 2rem;
+  text-align: center;
+}
+
+.App-nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.App-nav a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .App-placeholder {
   width: 640px;
   max-width: 100%;
