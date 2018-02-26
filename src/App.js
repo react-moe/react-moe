@@ -1,5 +1,8 @@
 import React from "react";
 
+import github from "./assets/github.svg";
+import twitter from "./assets/twitter.svg";
+
 import placeholder from "./assets/under-construction.png";
 
 import "./App.css";
@@ -12,14 +15,14 @@ const App = () => (
         target="_blank"
         rel="noopener noreferrer"
       >
-        GitHub
+        <img src={github} alt="GitHub" />
       </a>
       <a
         href="https://twitter.com/ReactMoe"
         target="_blank"
         rel="noopener noreferrer"
       >
-        Twitter
+        <img src={twitter} alt="Twitter" />
       </a>
     </nav>
     <img

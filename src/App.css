@@ -14,18 +14,28 @@
   left: 0;
   right: 0;
   bottom: 0;
-  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
   text-align: center;
 }
 
 .App-nav a {
-  margin: 0 1rem;
+  margin: 1rem;
   text-decoration: none;
-  color: rgba(255, 255, 255, 0.6);
+  color: #fff;
+  opacity: 0.4;
 }
 
 .App-nav a:hover {
-  color: rgba(255, 255, 255, 0.8);
+  opacity: 0.6;
+}
+
+.App-nav img {
+  display: block;
+  width: 24px;
+  height: 24px;
 }
 
 .App-placeholder {
