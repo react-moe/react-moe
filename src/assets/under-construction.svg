@@ -1,5 +1,35 @@
-<svg width="640" height="80" xmlns="http://www.w3.org/2000/svg">
-  <text x="50%" y="50%" text-anchor="middle" alignment-baseline="middle" dominant-baseline="middle" font-family="Carmencita" font-size="72" fill="#61dafb">
-    Under Construction
-  </text>
+<svg width="640" height="240" xmlns="http://www.w3.org/2000/svg">
+  <g fill="#61dafb">
+    <text
+      x="50%"
+      y="50%"
+      transform="translate(0 -24)"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-family="Cavita"
+      font-size="48"
+      font-weight="500"
+      letter-spacing="16"
+    >
+      REACT · MOE
+    </text>
+    <rect
+      x="0%"
+      y="50%"
+      width="100%"
+      height="2"
+    />
+    <text
+      x="50%"
+      y="50%"
+      transform="translate(0 24)"
+      text-anchor="middle"
+      dominant-baseline="middle"
+      font-family="Cavita"
+      font-size="24"
+      letter-spacing="8"
+    >
+      UNDER CONSTRUCTION
+    </text>
+  </g>
 </svg>
